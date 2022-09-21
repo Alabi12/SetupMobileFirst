@@ -19,6 +19,14 @@
     /* background: blue; */
 }
 
+.logo {
+    color: blue;
+}
+
+.headline{
+    color: blue;
+}
+
 .text-container {
     display: flex;
     flex-direction: column;
