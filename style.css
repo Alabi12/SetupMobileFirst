@@ -5,7 +5,10 @@
 }
 
 .container {
-    display: 1;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .header {
@@ -13,7 +16,7 @@
     justify-content: space-between;
     margin: 20px;
     padding: 20px;
-    background: blue;
+    /* background: blue; */
 }
 
 .text-container {
@@ -22,8 +25,32 @@
     align-items: center;
     padding: 20px;
     margin-top: 30px;
+    height: 20%;
+}
+
+.text1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text2 {
+    display: flex;
+    padding: 10px;
+    font-size: 15px;
+    margin: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
 }
 
 .social-media{
-    display: flex;
+    align-items: center;
+    margin: 30px;
 }
+
+
