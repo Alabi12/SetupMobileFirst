@@ -1,3 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: 1;
+}
+
 .header {
-  color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background: blue;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.social-media{
+    display: flex;
 }
