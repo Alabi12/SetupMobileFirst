@@ -20,7 +20,7 @@ To get a local copy up and running follow these simple example steps.
 Browser and git
 
 ### Install
-git clone https://github.com/Alabi12/helloMicroverse.git
+git clone https://github.com/Alabi12/SetupMobileFirst.git
 
 ### Usage
 open in browser
